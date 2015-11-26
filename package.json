@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-asmjs",
+  "version": "0.0.1",
+  "description": "asm.js validation for ESLint",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Benjamin Woodruff",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && mocha tests/**/*.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "asm.js": "bgw/asm.js#b5bc4d1f1f1ede259ac6e5ad2ef675e47509172a",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~1.9.0",
+    "eslint-config-eslint": "^1.0.1",
+    "mocha": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "BSD-2-Clause"
+}

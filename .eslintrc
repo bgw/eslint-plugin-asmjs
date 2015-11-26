@@ -1,0 +1,6 @@
+root: true
+ecmaFeatures:
+    templateStrings: true
+env:
+    node: true
+extends: eslint
